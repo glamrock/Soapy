@@ -1,0 +1,6 @@
+<ruleset name="Anapnea">
+  <target host="anapnea.net" />
+  <target host="www.anapnea.net" />
+
+  <rule from="^http://(www\.)?anapnea\.net/" to="http://46.21.207.188/"/>
+</ruleset>

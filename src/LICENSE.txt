@@ -1,16 +1,14 @@
 Soapy:
 Copyright © 2012 Griffin Boyce <griffin@griftastic.com>
 
-Building from the code of NoScript & HTTPS-Everywhere, with <3
-
-
-HTTPS Everywhere:
-Copyright © 2010 Mike Perry <mikeperry@fscked.org>
-                 Peter Eckersley <pde@eff.org>
+Incorporating code from NoScript & HTTPS-Everywhere
 
 NoScript:
 Copyright © 2004-2007 Giorgio Maone <g.maone@informaction.com>
 
+HTTPS Everywhere:
+Copyright © 2010 Mike Perry <mikeperry@fscked.org>
+                 Peter Eckersley <pde@eff.org>
 
 License: GPL-2+
 

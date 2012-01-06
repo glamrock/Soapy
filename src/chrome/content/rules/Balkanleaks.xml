@@ -1,0 +1,6 @@
+<ruleset name="Balkanleaks">
+  <target host="balkanleaks.eu" />
+  <target host="www.balkanleaks.eu" />
+
+  <rule from="^http://(www\.)?balkanleaks\.eu/" to="http://188.165.136.160/"/>
+</ruleset>

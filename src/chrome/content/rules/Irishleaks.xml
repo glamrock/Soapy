@@ -1,0 +1,6 @@
+<ruleset name="Irishleaks">
+  <target host="irishleaks.ie" />
+  <target host="www.irishleaks.ie" />
+
+  <rule from="^http://(www\.)?irishleaks\.ie/" to="http://88.80.5.84/"/>
+</ruleset>

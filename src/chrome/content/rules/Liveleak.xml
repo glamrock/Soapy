@@ -1,0 +1,6 @@
+<ruleset name="Liveleak">
+  <target host="liveleak.com" />
+  <target host="www.liveleak.com" />
+
+  <rule from="^http://(www\.)?liveleak\.com/" to="http://208.71.130.253/"/>
+</ruleset>

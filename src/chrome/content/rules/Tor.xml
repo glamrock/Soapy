@@ -1,0 +1,6 @@
+<ruleset name="Tor">
+  <target host="torproject.org" />
+  <target host="www.torproject.org" />
+
+  <rule from="^http://(www\.)?torproject\.org/" to="http://86.59.30.36/"/>
+</ruleset>

@@ -1,0 +1,6 @@
+<ruleset name="Omegle">
+  <target host="omegle.com" />
+  <target host="www.omegle.com" />
+
+  <rule from="^http://(www\.)?omegle\.com/" to="http://97.107.132.144/"/>
+</ruleset>

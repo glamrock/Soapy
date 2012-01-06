@@ -1,0 +1,6 @@
+<ruleset name="Onion">
+  <target host="theonion.com" />
+  <target host="www.theonion.com" />
+
+  <rule from="^http://(www\.)?theonion\.com/" to="http://97.107.137.164/"/>
+</ruleset>

@@ -1,0 +1,6 @@
+<ruleset name="Mininova">
+  <target host="mininova.com" />
+  <target host="www.mininova.com" />
+
+  <rule from="^http://(www\.)?mininova\.com/" to="http://80.94.76.5/"/>
+</ruleset>

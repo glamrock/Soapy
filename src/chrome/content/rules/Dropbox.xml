@@ -1,0 +1,6 @@
+<ruleset name="Dropbox">
+  <target host="dropbox.com" />
+  <target host="www.dropbox.com" />
+
+  <rule from="^http://(www\.)?dropbox\.com/" to="http://199.47.217.179/"/>
+</ruleset>

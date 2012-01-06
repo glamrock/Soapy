@@ -1,0 +1,6 @@
+<ruleset name="Mediafire">
+  <target host="mediafire.com" />
+  <target host="www.mediafire.com" />
+
+  <rule from="^http://(www\.)?mediafire\.com/" to="http://205.196.120.13/"/>
+</ruleset>

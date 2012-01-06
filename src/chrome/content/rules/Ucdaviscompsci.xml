@@ -1,0 +1,6 @@
+<ruleset name="Ucdaviscompsci">
+  <target host="cs.ucdavis.edu" />
+  <target host="www.cs.ucdavis.edu" />
+
+  <rule from="^http://(www\.)?cs.ucdavis\.edu/" to="http://169.237.6.141/"/>
+</ruleset>

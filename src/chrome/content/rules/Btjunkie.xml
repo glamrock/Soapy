@@ -1,0 +1,6 @@
+<ruleset name="Btjunkie">
+  <target host="btjunkie.com" />
+  <target host="www.btjunkie.com" />
+
+  <rule from="^http://(www\.)?btjunkie\.com/" to="http://93.158.65.211/"/>
+</ruleset>

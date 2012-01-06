@@ -1,0 +1,6 @@
+<ruleset name="Amazon">
+  <target host="amazon.com" />
+  <target host="www.amazon.com" />
+
+  <rule from="^http://(www\.)?amazon\.com/" to="http://72.21.211.176/"/>
+</ruleset>

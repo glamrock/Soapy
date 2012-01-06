@@ -1,0 +1,6 @@
+<ruleset name="Piratepad">
+  <target host="piratepad.net" />
+  <target host="www.piratepad.net" />
+
+  <rule from="^http://(www\.)?piratepad\.net/" to="http://194.14.56.211/"/>
+</ruleset>

@@ -1,0 +1,6 @@
+<ruleset name="Multiupload">
+  <target host="multiupload.com" />
+  <target host="www.multiupload.com" />
+
+  <rule from="^http://(www\.)?multiupload\.com/" to="http://95.211.149.7/"/>
+</ruleset>

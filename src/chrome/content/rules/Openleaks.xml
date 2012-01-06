@@ -1,0 +1,6 @@
+<ruleset name="Openleaks">
+  <target host="openleaks.org" />
+  <target host="www.openleaks.org" />
+
+  <rule from="^http://(www\.)?openleaks\.org/" to="http://83.223.73.52/"/>
+</ruleset>

@@ -1,0 +1,6 @@
+<ruleset name="Livejournal">
+  <target host="livejournal.com" />
+  <target host="www.livejournal.com" />
+
+  <rule from="^http://(www\.)?livejournal\.com/" to="http://209.200.154.225/"/>
+</ruleset>

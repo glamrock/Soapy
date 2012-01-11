@@ -1,6 +1,6 @@
 <p><b>Soapy is a small, free Fire Fox plugin that allows users to go to web sites banned under SOPA -- making SOPA, if it is passed, moot.</b> It focuses on the DNS-blocking technique favored by oppressive regimes and middle management.</p>
 
-<p>There's a bit of a lag time between coding and releasing source on git, just so you know.  Every site that this circumvents for has a set of XML rules that are tailored to the quirks of that specific site.  These are found in `rules` and `src/chrome/content/rules`.  Much of the code has been borrowed from HTTPS-Everywhere and NoScript.</p>
+<p>There's a bit of a lag time between coding and releasing source on git, just so you know.  Every site that this circumvents for has a set of XML rules that are tailored to the quirks of that specific site.  These are found in <code>rules</code> and <code>src/chrome/content/rules</code>.  Much of the code has been borrowed from HTTPS-Everywhere and NoScript.</p>
 
 <p>Let me know what you think, either by email at griffin@griftastic.com, or on Twitter at @abditum. ~Griffin Boyce</p>
 

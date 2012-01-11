@@ -1,0 +1,6 @@
+<ruleset name="Dreamwidth">
+  <target host="dreamwidth.org" />
+  <target host="www.dreamwidth.org" />
+
+  <rule from="^http://(www\.)?dreamwidth\.org/" to="http://69.174.244.50/"/>
+</ruleset>

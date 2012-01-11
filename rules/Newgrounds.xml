@@ -1,0 +1,6 @@
+<ruleset name="Newgrounds">
+  <target host="newgrounds.com" />
+  <target host="www.newgrounds.com" />
+
+  <rule from="^http://(www\.)?newgrounds\.com/" to="http://38.119.130.61/"/>
+</ruleset>

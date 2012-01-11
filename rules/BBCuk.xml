@@ -1,0 +1,6 @@
+<ruleset name="BBC UK">
+  <target host="bbc.co.uk" />
+  <target host="www.bbc.co.uk" />
+
+  <rule from="^http://(www\.)?bbc\.co.uk/" to="http://212.58.241.131/"/>
+</ruleset>

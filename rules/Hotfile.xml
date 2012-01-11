@@ -1,0 +1,6 @@
+<ruleset name="Hotfile">
+  <target host="hotfile.com" />
+  <target host="www.hotfile.com" />
+
+  <rule from="^http://(www\.)?hotfile\.com/" to="http://199.7.177.218/"/>
+</ruleset>

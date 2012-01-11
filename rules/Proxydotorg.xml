@@ -1,0 +1,6 @@
+<ruleset name="Proxydotorg">
+  <target host="proxy.org" />
+  <target host="www.proxy.org" />
+
+  <rule from="^http://(www\.)?proxy\.org/" to="http://174.120.113.29/"/>
+</ruleset>

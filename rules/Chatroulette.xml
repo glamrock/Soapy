@@ -1,0 +1,6 @@
+<ruleset name="Chatroulette">
+  <target host="chatroulette.com" />
+  <target host="www.chatroulette.com" />
+
+  <rule from="^http://(www\.)?chatroulette\.com/" to="http://184.173.141.231/"/>
+</ruleset>

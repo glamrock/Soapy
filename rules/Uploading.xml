@@ -1,0 +1,6 @@
+<ruleset name="Uploading">
+  <target host="uploading.com" />
+  <target host="www.uploading.com" />
+
+  <rule from="^http://(www\.)?uploading\.com/" to="http://195.191.207.40/"/>
+</ruleset>

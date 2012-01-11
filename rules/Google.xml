@@ -1,0 +1,114 @@
+<ruleset name="Google Search" match_rule="http:.*google\.">
+  <target host="*.google.com" />
+  <target host="google.com" />
+  <target host="www.google.com.*" />
+  <target host="google.com.*" />
+  <target host="www.google.co.*" />
+  <target host="google.co.*" />
+  <target host="www.google.*" />
+  <target host="google.*" />
+
+
+  <!-- Trying to fix a conflict between Soapy and https-Everywhere -->
+
+  <rule from="^http://encrypted\.google\.com/"
+          to="http://74.125.157.99/"/>
+
+  <rule from="^https://encrypted\.google\.com/"
+          to="http://74.125.157.99/"/>
+
+  <!-- The most basic case. -->
+
+  <rule from="^http://(www\.)?google\.com/search"
+          to="http://74.125.157.99/search"/>
+
+  <!-- A very annoying exception that we seem to need for the basic case -->
+
+  <exclusion pattern="^http://(www\.)?google\.com/search.*tbs=shop" />
+  <exclusion pattern="^http://clients[0-9]\.google\.com/.*client=products.*" />
+  <exclusion pattern="^http://suggestqueries\.google\.com/.*client=.*" />
+
+  <!-- Google's help sites and forums. -->
+  <rule from="^http://(www\.)?google\.com/support/"
+          to="http://74.125.157.99/support/"/>
+
+  <!-- There are two distinct cases for these firefox searches -->
+
+  <rule from="^http://(www\.)?google\.com/firefox/?$"
+          to="http://74.125.157.99/"/>
+
+  <rule from="^http://(www\.)?google\.com/firefox"
+          to="http://74.125.157.99/search"/>
+
+  <rule from="^http://(www\.)?google\.com/webhp"
+          to="http://74.125.157.99/webhp"/>
+
+  <rule from="^http://(www\.)?google\.com/#"
+          to="http://74.125.157.99/#"/>
+
+  <rule from="^http://(www\.)?google\.com/$"
+          to="http://74.125.157.99/"/>
+
+  <!-- most google international sites look like "google.fr" -->
+
+  <rule
+    from="^http://(www\.)?google\.[^/@:][^/@:]/(search\?|firefox|#)"
+      to="http://74.125.157.99/#" />
+
+  <!-- some look like "google.co.jp" -->
+  <!-- and some crazy ones like "google.com.au" -->
+  <rule
+    from="^http://(www\.)?google\.com?\.[^/@:][^/@:]/(search\?|firefox|#)"
+      to="http://74.125.157.99/#" />
+
+
+  <!-- We are trying a large collection of mappings from google country sites
+       to http://74.125.157.99/webhp?hl=<lang> where lang is the default
+       language for that country.  The concern with that was that the hl=
+       parameter would override any user preference for a particular language,
+       which would be Bad, especially if people got bounced from
+       http://google.com to google.cctld to http://google/webhp?hl=<constant>
+       but since we actually prevent google from performing the first bounce,
+       we don't have to worry about this so much!
+       -->
+
+  <rule
+   from="^http://(www\.)?google\.(com?\.)?(au|ca|gh|ie|in|jm|ke|lk|my|na|ng|nz|pk|rw|sl|sg|ug|uk|za|zw)/?$"
+     to="http://74.125.157.99/" />
+
+  <rule
+   from="^http://(www\.)?google\.(com?\.)?(ar|bo|cl|co|cu|cr|ec|es|gt|mx|pa|pe|py|sv|uy|ve)/?$"
+    to="http://74.125.157.99/webhp?hl=es" />
+
+  <rule
+   from="^http://(www\.)?google\.(com\.)?(ae|bh|eg|jo|kw|lb|ly|om|qa|sa)/?$"
+     to="http://74.125.157.99/webhp?hl=ar" />
+
+  <rule from="^http://(www\.)?google\.(at|ch|de)/?$"
+          to="http://74.125.157.99/webhp?hl=de" />
+
+  <rule from="^http://(www\.)?google\.(fr|nl|it|pl|ru|bg|pt|ro|hr|fi)/?$"
+          to="http://74.125.157.99/webhp?hl=$2" />
+
+  <rule from="^http://(www\.)?google\.com?\.(id|th|tr)/?$"
+          to="http://74.125.157.99/webhp?hl=$2" />
+
+  <rule from="^http://(www\.)?google\.com\.il/?$"
+          to="http://74.125.157.99/webhp?hl=he" />
+
+  <rule from="^http://(www\.)?google\.com\.kr/?$"
+          to="http://74.125.157.99/webhp?hl=ko" />
+
+  <rule from="^http://(www\.)?google\.com\.jp/?$"
+          to="http://74.125.157.99/webhp?hl=ja" />
+
+  <rule from="^http://(www\.)?google\.com\.vn/?$"
+          to="http://74.125.157.99/webhp?hl=vi" />
+
+  <rule from="^http://(www\.)?google\.com\.br/?$"
+          to="http://74.125.157.99/webhp?hl=pt-BR" />
+
+  <rule from="^http://(www\.)?google\.se/?$"
+          to="http://74.125.157.99/webhp?hl=sv" />
+
+</ruleset>

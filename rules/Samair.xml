@@ -1,0 +1,6 @@
+<ruleset name="Samair">
+  <target host="samair.ru" />
+  <target host="www.samair.ru" />
+
+  <rule from="^http://(www\.)?samair\.ru/" to="http://94.76.239.85/"/>
+</ruleset>

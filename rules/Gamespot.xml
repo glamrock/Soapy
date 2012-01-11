@@ -1,0 +1,6 @@
+<ruleset name="Gamespot">
+  <target host="gamespot.com" />
+  <target host="www.gamespot.com" />
+
+  <rule from="^http://(www\.)?gamespot\.com/" to="http://216.239.113.172/"/>
+</ruleset>

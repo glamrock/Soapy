@@ -1,0 +1,6 @@
+<ruleset name="AllRecipes">
+  <target host="allrecipes.com" />
+  <target host="www.allrecipes.com" />
+
+  <rule from="^http://(www\.)?allrecipes\.com/" to="http://64.94.140.201/"/>
+</ruleset>

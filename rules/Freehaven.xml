@@ -1,0 +1,6 @@
+<ruleset name="Freehaven">
+  <target host="freehaven.net" />
+  <target host="www.freehaven.net" />
+
+  <rule from="^http://(www\.)?freehaven\.net/" to="http://128.31.0.34/"/>
+</ruleset>

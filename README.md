@@ -35,7 +35,7 @@ they've been tested and aren't simply assumed to work.</p>
 <p><a href="http://griftastic.com/soapydns.html">A more elegant solution is in the works as well</a>, but Soapy works <i>now</i>.</p>
 
 
-<p>Version: 0.04; MD5: <code>3d5d22d999ec1c1c766da6aa10c7904a</code></p>
+<p>Version: 0.04; MD5: <code>eacb420b5f209f2b2335dee6adbbe9d5</code></p>
 
 <h2>How to install:</h2>
 <p>Step one: <a href="http://griftastic.com/soapy.xpi"> Download it here</a>, and save it to your hard drive.</p>

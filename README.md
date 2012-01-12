@@ -35,10 +35,10 @@ they've been tested and aren't simply assumed to work.</p>
 <p><a href="http://griftastic.com/soapydns.html">A more elegant solution is in the works as well</a>, but Soapy works <i>now</i>.</p>
 
 
-<p>Version: 0.03; MD5: <code>9a2c51a86329145ba04584ac7fff40bd</code></p>
+<p>Version: 0.04; MD5: <code>3d5d22d999ec1c1c766da6aa10c7904a</code></p>
 
 <h2>How to install:</h2>
-<p>Step one: <a href="soapy.xpi"> Download it here</a>, and save it to your hard drive.</p>
+<p>Step one: <a href="http://griftastic.com/soapy.xpi"> Download it here</a>, and save it to your hard drive.</p>
 <p>Step two: Drag and drop the file onto your FireFox window.</p>
 <p>Step three: Restart Firefox.</p>
 

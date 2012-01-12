@@ -4,7 +4,7 @@
 
 <p>Let me know what you think, either by email at griffin@griftastic.com, or on Twitter at @abditum. ~Griffin Boyce</p>
 
-<p><a href="soapysites.html">Here are the sites so far, with more added daily.</a></p>
+<p><a href="http://griftastic.com/soapysites.html">Here are the sites so far, with more added daily.</a></p>
 
 <center><h2>What is Soapy, exactly?</h2></center>
 
@@ -32,7 +32,7 @@ for websites which may be at risk of being blocked. So while this means
 that sites must be included in the plugin package, it also means that
 they've been tested and aren't simply assumed to work.</p>
 
-<p><a href="soapydns.html">A more elegant solution is in the works as well</a>, but Soapy works <i>now</i>.</p>
+<p><a href="http://griftastic.com/soapydns.html">A more elegant solution is in the works as well</a>, but Soapy works <i>now</i>.</p>
 
 
 <p>Version: 0.03; MD5: <code>9a2c51a86329145ba04584ac7fff40bd</code></p>

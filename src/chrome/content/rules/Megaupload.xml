@@ -1,6 +1,0 @@
-<ruleset name="Megaupload">
-  <target host="megaupload.com" />
-  <target host="www.megaupload.com" />
-
-  <rule from="^http://(www\.)?megaupload\.com/" to="http://109.236.83.66/"/>
-</ruleset>

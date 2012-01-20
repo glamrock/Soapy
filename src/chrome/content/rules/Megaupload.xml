@@ -2,5 +2,5 @@
   <target host="megaupload.com" />
   <target host="www.megaupload.com" />
 
-  <rule from="^http://(www\.)?megaupload\.com/" to="http://174.140.154.20/"/>
+  <rule from="^http://(www\.)?megaupload\.com/" to="http://109.236.83.66/"/>
 </ruleset>

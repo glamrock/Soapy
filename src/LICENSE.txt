@@ -1,5 +1,5 @@
 Soapy:
-Copyright © 2012 Griffin Boyce <griffin@griftastic.com>
+Copyright © 2012 Griffin Boyce <griffinboyce@gmail.com>
 
 Incorporating code from NoScript & HTTPS-Everywhere
 

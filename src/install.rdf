@@ -5,7 +5,7 @@
     <Description about="urn:mozilla:install-manifest">
         <em:name>Soapy</em:name>
         <em:creator>Griffin Boyce</em:creator>
-        <em:id>soapy@griftastic.com</em:id>
+        <em:id>griffinboyce@gmail.com</em:id>
         <em:description>Bypass DNS filtering</em:description>
         <em:version>0.02</em:version>
         <em:homepageURL>https://github.com/glamrock/soapy</em:homepageURL>

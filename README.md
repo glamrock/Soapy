@@ -2,9 +2,9 @@
 
 <p>There's a bit of a lag time between coding and releasing source on git, just so you know.  Every site that this circumvents for has a set of XML rules that are tailored to the quirks of that specific site.  These are found in <code>rules</code> and <code>src/chrome/content/rules</code>.  Much of the code has been borrowed from HTTPS-Everywhere and NoScript.</p>
 
-<p>Let me know what you think, either by email at griffin@griftastic.com, or on Twitter at @abditum. ~Griffin Boyce</p>
+<p>To compile this into a plugin, compress everything in <code>/src</code> into a zip file <code>soapy.zip</code>, then change the extension to <code>.xpi</code>.  So once packed, the plugin should be called <code>soapy.xpi</code>. </p>
 
-<p><a href="http://griftastic.com/soapysites.html">Here are the sites so far, with more added daily.</a></p>
+<p>Let me know what you think, either by email at griffinboyce@gmail.com, or on Twitter at @abditum. ~Griffin Boyce</p>
 
 <center><h2>What is Soapy, exactly?</h2></center>
 
@@ -23,6 +23,8 @@ IP address as well.</p>
 These large servers act as online address books for websites, telling
 computers where the site they want to visit is located. Soapy acts as an
 alternative address book for sites that are at risk of being blocked.</p>
+
+<p><a href="http://griftastic.com/soapysites.html">Here are the sites so far, with more added regularly.</a></p>
 
 <h3>More technical info:</h3>
 <p>Soapy is a plugin for FireFox written in JavaScript and XML that is

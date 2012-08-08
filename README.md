@@ -1,3 +1,6 @@
+<h2>While SOPA did not pass, similar legislation could pass!<br/>
+See <a href="http://eff.org">the EFF</a> or <a href="http://www.doyouhaveasecret.org/">Do You Have a Secret?</a> for more info</h2>
+
 <p><b>Soapy is a small, free Fire Fox plugin that allows users to go to web sites banned under SOPA -- making SOPA, if it is passed, moot.</b> It focuses on the DNS-blocking technique favored by oppressive regimes and middle management. Because this is designed to go around a complete block, <i>HTTPS is disabled for sites covered by this plugin.</i></p>
 
 <p>There's a bit of a lag time between coding and releasing source on git, just so you know.  Every site that this circumvents for has a set of XML rules that are tailored to the quirks of that specific site.  These are found in <code>rules</code> and <code>src/chrome/content/rules</code>.  Much of the code has been borrowed from HTTPS-Everywhere and NoScript.</p>
@@ -24,8 +27,6 @@ These large servers act as online address books for websites, telling
 computers where the site they want to visit is located. Soapy acts as an
 alternative address book for sites that are at risk of being blocked.</p>
 
-<p><a href="http://griftastic.com/soapysites.html">Here are the sites so far, with more added regularly.</a></p>
-
 <h3>More technical info:</h3>
 <p>Soapy is a plugin for FireFox written in JavaScript and XML that is
 designed to bypass DNS blocks by automatically redirecting the user to
@@ -34,13 +35,10 @@ for websites which may be at risk of being blocked. So while this means
 that sites must be included in the plugin package, it also means that
 they've been tested and aren't simply assumed to work.</p>
 
-<p><a href="http://griftastic.com/soapydns.html">A more elegant solution is in the works as well</a>, but Soapy works <i>now</i>.</p>
-
-
 <p>Version: 0.05; MD5: <code>b2ec7aaae1cc7b4810355fd0374868e1</code></p>
 
 <h2>How to install:</h2>
-<p>Step one: <a href="http://griftastic.com/soapy.xpi"> Download it here</a>, and save it to your hard drive.</p>
+<p>Step one: Download it here, and save it to your hard drive.</p>
 <p>Step two: Drag and drop the file onto your FireFox window.</p>
 <p>Step three: Restart Firefox.</p>
 
@@ -50,5 +48,6 @@ they've been tested and aren't simply assumed to work.</p>
 
 All code is open source under GPL v2. Though if you're charging for this, I could use a job (just saying).</p>
 
-<p><i><small>Like crispy bacon, I crave censorship circumvention.</small></i></p>
 
+
+<p><i><small>Like crispy bacon, I crave censorship circumvention.</small></i></p>

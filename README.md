@@ -1,5 +1,8 @@
-<h2>While SOPA did not pass, similar legislation could pass!<br/>
-See <a href="http://eff.org">the EFF</a> or <a href="http://www.doyouhaveasecret.org/">Do You Have a Secret?</a> for more info</h2>
+#Update January 2nd, 2014
+There has been a recent uptick in interest about Soapy, so I feel the need to clarify a few things.  The project is not under active development.  Feel free to fork and make something awesome! :D  All deployed extensions were disabled/deactivated at the end of 2012.  My current main projects are [Commotion](https://commotionwireless.net) and [Cupcake](http://cupcakebridge.com).
+
+###While SOPA did not pass, similar legislation could pass!<br/>
+####See <a href="http://eff.org">the EFF</a> or <a href="http://www.doyouhaveasecret.org/">Do You Have a Secret?</a> for more info
 
 <p><b>Soapy is a small, free Fire Fox plugin that allows users to go to web sites banned under SOPA -- making SOPA, if it is passed, moot.</b> It focuses on the DNS-blocking technique favored by oppressive regimes and middle management. Because this is designed to go around a complete block, <i>HTTPS is disabled for sites covered by this plugin.</i></p>
 
